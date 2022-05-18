@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_whats",
+  "info": {
+    "displayName": "What",
+    "icon": "frog"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "goal_text": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

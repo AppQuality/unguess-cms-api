@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_hows",
+  "info": {
+    "displayName": "How",
+    "icon": "hippo"
+  },
+  "options": {},
+  "attributes": {
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.object-list",
+      "required": true
+    }
+  }
+}

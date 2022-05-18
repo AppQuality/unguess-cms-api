@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

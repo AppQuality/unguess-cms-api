@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_text_lists",
+  "info": {
+    "displayName": "Text List",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
