@@ -17,6 +17,10 @@
     },
     "Body": {
       "type": "richtext"
+    },
+    "draft": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
