@@ -47,16 +47,6 @@
       "type": "string",
       "required": true
     },
-    "tags": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "components.tag"
-    },
     "is_express": {
       "pluginOptions": {
         "i18n": {
@@ -64,7 +54,8 @@
         }
       },
       "type": "boolean",
-      "default": false
+      "default": false,
+      "required": true
     },
     "description": {
       "pluginOptions": {
@@ -148,14 +139,25 @@
       },
       "component": "components.how"
     },
-    "slug": {
+    "service_slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "uid",
-      "targetField": "campaign_type"
+      "targetField": "campaign_type",
+      "required": true
+    },
+    "is_functional": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
