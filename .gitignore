@@ -4,3 +4,4 @@ node_modules
 .cache/
 build/
 public/uploads/
+.strapi-updater.json
