@@ -4,4 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  url: env('SITE_URL', 'https://admin.unguess.io'),
 });
