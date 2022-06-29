@@ -65,7 +65,7 @@
       },
       "type": "string",
       "required": true,
-      "maxLength": 150
+      "maxLength": 260
     },
     "duration_in_days": {
       "pluginOptions": {
