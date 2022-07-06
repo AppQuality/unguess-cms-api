@@ -185,6 +185,11 @@
       "required": true,
       "default": 1,
       "min": 1
+    },
+    "express": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::express.express"
     }
   }
 }
