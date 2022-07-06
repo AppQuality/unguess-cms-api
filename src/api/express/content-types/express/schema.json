@@ -4,36 +4,31 @@
   "info": {
     "singularName": "express",
     "pluralName": "expresses",
-    "displayName": "Express"
+    "displayName": "Express",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "cost": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
+      "pluginOptions": {},
       "type": "integer",
       "required": false,
       "min": 1,
       "default": 1
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }
