@@ -29,6 +29,22 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "minLength": 48,
+      "default": "It's a functional test type to find as many bugs as possible. The product will be explored by testers without any limit: you won't need to provide tasks or a testing manual."
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.tag",
+      "required": false,
+      "max": 4
+    },
+    "before_starting_informations": {
+      "type": "text"
     }
   }
 }
