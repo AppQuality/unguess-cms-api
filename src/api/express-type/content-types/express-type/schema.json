@@ -21,7 +21,7 @@
       "relation": "oneToOne",
       "target": "api::express.express"
     },
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
