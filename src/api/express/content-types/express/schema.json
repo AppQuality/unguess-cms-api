@@ -29,6 +29,12 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "express_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::express-type.express-type",
+      "inversedBy": "express"
     }
   }
 }

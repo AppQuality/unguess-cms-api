@@ -19,7 +19,8 @@
     "express": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::express.express"
+      "target": "api::express.express",
+      "inversedBy": "express_type"
     },
     "title": {
       "pluginOptions": {
