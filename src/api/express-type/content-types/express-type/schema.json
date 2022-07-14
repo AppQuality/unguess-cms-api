@@ -55,7 +55,17 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "text"
+    },
+    "start_reasons": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "components.text-list"
     }
   }
 }
